@@ -71,7 +71,7 @@
 
 .card {
     position: relative;
-    -webkit-box-reflect: below -1px linear-gradient(to top, rgba(0, 0, 0, .2) 0, transparent 30%);
+    -webkit-box-reflect: below -1px linear-gradient(to top, rgba(0, 0, 0, .5) 0, transparent 30%);
 }
 
 .card-body {
