@@ -29,6 +29,10 @@
     opacity: 1;
 }
 
+.nav-btn-active {
+    pointer-events: none;
+}
+
 .nav-btn-index {
     background-color: black;
 }

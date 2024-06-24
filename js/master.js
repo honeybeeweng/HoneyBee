@@ -86,12 +86,15 @@ function setInit() {
 // 其他事件的函式庫
 function setEvent() {
     setScroll();
+    setFancybox();
+}
+
+function setFancybox(){
+    $grid.find('a').fancybox({
+        protect: true,
+        loop: true
+    });
 }
 
 setInit();
 setEvent();
-
-
-
-
-// function setScroll
