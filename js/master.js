@@ -118,13 +118,13 @@ function setFancybox(){
             'thumbs',
             'close',
         ],
-        // media: {
-        //     youtube: {
-        //         params: {
-        //             autoplay: false,
-        //         }
-        //     }
-        // }
+        media: {
+            youtube: {
+                params: {
+                    autoplay: false,
+                }
+            }
+        }
     });
 }
 
