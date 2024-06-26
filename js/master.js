@@ -92,7 +92,39 @@ function setEvent() {
 function setFancybox(){
     $grid.find('a').fancybox({
         protect: true,
-        loop: true
+        loop: true,
+        animationDuration: 1000,
+        transitionDuration: 1000,
+        transitionEffect:'tube',
+        // fullScreen: {
+        //     autoStart: true,
+        // }
+        // keyboard: false,
+        // infobar: false,
+        // toolbar: false,
+        // smallBtn: true,
+        // arrows: false,
+        // slideShow: {
+        //     autoStart: true,
+        //     speed: 2000,
+        // }
+        // thumbs: false,
+        buttons: [
+            'zoom',
+            'share',
+            'slideShow',
+            'fullScreen',
+            'download',
+            'thumbs',
+            'close',
+        ],
+        // media: {
+        //     youtube: {
+        //         params: {
+        //             autoplay: false,
+        //         }
+        //     }
+        // }
     });
 }
 
